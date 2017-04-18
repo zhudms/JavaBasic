@@ -1,0 +1,6 @@
+相当于有4种
+public private protected 默认（省略的）
+
+
+省略的 就是同一个包下能访问
+protected的 是同一个包下，以及子类
