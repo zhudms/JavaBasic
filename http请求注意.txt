@@ -1,0 +1,7 @@
+加号可能会被替换成空格，需要使用 %2B替换（message=message.replaceAll("\\+","%2B");），或者使用（没试过的）
+
+try {
+        des = URLEncoder.encode(des, "UTF-8");
+    } catch (UnsupportedEncodingException e) {
+        e.printStackTrace();
+    }
